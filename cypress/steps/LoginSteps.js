@@ -16,7 +16,7 @@ Then('une erreur s affiche', () => {
 
 Then('j accede a mon espace admin', () => {
   // Write code here that turns the phrase above into concrete actions
-  cy.url().should("include", "/dashboard");
+  cy.url().should("include", "/dashboards");
 })
 
 Given('je me rends sur le lien {string}', (s) => {
